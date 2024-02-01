@@ -5,7 +5,7 @@ class CreateBooks < ActiveRecord::Migration[7.0]
       t.string :category
       t.integer :price
       t.string :author
-      t.boolean :rent, default: true
+      t.boolean :rent, default: false
 
       t.timestamps
     end
